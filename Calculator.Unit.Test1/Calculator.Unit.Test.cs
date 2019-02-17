@@ -10,6 +10,7 @@ namespace Calculator.Unit.Test
         [TestCase(-3, -5, -8)]
         [TestCase(-3, 4, 1)]
         [TestCase(-3, 3, 0)]
+        [TestCase(-3, 6, 3)]
         public void Add_aAndb_ReturnsResult(int a, int b, int result)
         {
         var uut = new Calculator();
